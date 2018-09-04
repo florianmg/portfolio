@@ -53,9 +53,29 @@
 .content #me .col {
   width: 50%;
   height: 500px;
+  padding: 75px 0;
+}
+.content #me .col .txt {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+}
+.content #me .col .pres {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.4rem;
+  line-height: 1.5rem;
+  max-width: 500px;
+  margin: auto;
+  align-items: center;
 }
 .content #me .left {
   background-color: #ef565a;
+  display: flex;
+}
+.content #me .left img {
+  max-width: 500px;
+  margin: auto;
 }
 .content #me .right {
   background-color: #f0f0e6;
