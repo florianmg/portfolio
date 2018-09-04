@@ -1,0 +1,70 @@
+.content .navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  padding: 20px 30px;
+  text-align: right;
+}
+.content .navbar ul li {
+  display: inline-block;
+  margin: 0 40px;
+  text-decoration: none;
+  color: white;
+}
+.content .title {
+  font-family: "Open Sans", sans-serif;
+  color: white;
+}
+.content .hi {
+  background: #232741;
+  position: relative;
+}
+.content .hi .txt {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 250px;
+  height: 250px;
+  margin-top: -125px;
+  margin-left: -125px;
+}
+.content .hi a {
+  color: #f0f0e6;
+  font-size: 1rem;
+  font-weight: 100;
+  text-decoration: none;
+  border: 1px solid white;
+  padding: 5px 10px;
+  transition-duration: 0.5s;
+  margin-left: 250px;
+}
+.content .hi a:hover {
+  background-color: #f0f0e6;
+  color: #232741;
+  transition-duration: 0.5s;
+}
+.content #me {
+  display: flex;
+}
+.content #me .col {
+  width: 50%;
+  height: 500px;
+}
+.content #me .left {
+  background-color: #ef565a;
+}
+.content #me .right {
+  background-color: #f0f0e6;
+}
+.content #svgAttributes #txtSvg {
+  opacity: 0;
+}
+.content #svgAttributes #job {
+  opacity: 0;
+}
+
+/*# sourceMappingURL=index.css.map */

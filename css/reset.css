@@ -1,0 +1,140 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*
+.content .navbar {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+  z-index: 1;
+  color: white;
+	font-family: 'Open Sans', sans-serif;
+	padding: 20px 30px;
+	text-align: right;
+}
+.content .navbar ul {
+
+}
+.content .navbar ul li {
+	display: inline-block;
+	margin: 0 40px;
+	text-decoration: none;
+	color: white;
+}
+
+
+
+.content .title {
+	font-family: 'Open Sans', sans-serif;
+	color: white;
+}
+.hi {
+  background: #232741;
+	position: relative;
+}
+.hi .txt {
+  color: #ffffff;
+  font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-size: 2.625rem;
+	text-align: left;
+	position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 680px;
+	height: 160px;
+	margin-top: -80px;
+  margin-left: -340px;
+	line-height: 50px;
+}
+
+.hi .txt .color {
+		color: #fa6d29;
+}
+.hi a {
+	color: #f0f0e6;
+	font-size: 1rem;
+	font-weight: 100;
+	text-decoration: none;
+	border: 1px solid white;
+	padding: 5px 10px;
+	transition-duration: 0.5s;
+	margin-left: 250px;
+}
+.hi a:hover {
+	background-color: #f0f0e6;
+	color: #232741;
+	transition-duration: 0.5s;
+}
+
+.aboutme {
+	background: #f0f0e6;
+	padding-bottom: 45px;
+}
+
+.aboutme .title {
+	color: #232741;
+	font-size: 2rem;
+	text-align: center;
+	padding: 45px 0;
+}
+
+.aboutme .infos {
+	display: flex;
+	justify-content: space-around;
+	font-family: 'Montserrat', sans-serif;
+	width: 60%;
+
+}
+.aboutme .infos img {
+		width: 350px;
+		height: 250px;
+}
+*/
