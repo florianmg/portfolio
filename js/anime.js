@@ -18,3 +18,19 @@ var jobAppear = anime({
     delay: 2000,
     duration: 3000
 });
+
+var svgArrow = anime({
+    targets: '#arrow_bot',
+    delay: 2300,
+    opacity: 1,
+    translateY: 50,
+    easing: 'easeInOutQuart',
+    scale: {
+        value: 2,
+        duration: 500,
+        delay: 3000,
+        loop: true,
+        easing: 'easeInOutQuart'
+    }
+
+});

@@ -32,28 +32,19 @@
   margin-top: -125px;
   margin-left: -125px;
 }
-.content .hi a {
-  color: #f0f0e6;
-  font-size: 1rem;
-  font-weight: 100;
-  text-decoration: none;
-  border: 1px solid white;
-  padding: 5px 10px;
-  transition-duration: 0.5s;
-  margin-left: 250px;
-}
-.content .hi a:hover {
-  background-color: #f0f0e6;
-  color: #232741;
-  transition-duration: 0.5s;
+.content #arrow_bot {
+  left: 50px;
+  margin-left: 95px;
+  margin-top: -45px;
+  opacity: 0;
 }
 .content #me {
   display: flex;
 }
 .content #me .col {
   width: 50%;
-  height: 500px;
-  padding: 75px 0;
+  max-height: 500px;
+  padding: 75px 40px;
 }
 .content #me .col .txt {
   text-align: center;
@@ -64,7 +55,7 @@
 .content #me .col .pres {
   font-family: "Open Sans", sans-serif;
   font-size: 1.4rem;
-  line-height: 1.5rem;
+  line-height: 2rem;
   max-width: 500px;
   margin: auto;
   align-items: center;
@@ -74,11 +65,13 @@
   display: flex;
 }
 .content #me .left img {
+  width: 90%;
   max-width: 500px;
   margin: auto;
 }
 .content #me .right {
   background-color: #f0f0e6;
+  display: flex;
 }
 .content #svgAttributes #txtSvg {
   opacity: 0;
