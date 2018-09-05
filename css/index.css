@@ -79,5 +79,29 @@
 .content #svgAttributes #job {
   opacity: 0;
 }
+.content #projects {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  background: #ef565a;
+  justify-content: space-evenly;
+}
+.content #projects .project {
+  min-width: 30%;
+  height: 300px;
+  border: 1px solid #fff1fd;
+  margin: 20px 0;
+}
+.content .project-title {
+  background-image: url("../img/sand.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 150px;
+  line-height: 150px;
+  text-align: center;
+  color: #232741;
+}
 
 /*# sourceMappingURL=index.css.map */
