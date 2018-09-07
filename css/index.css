@@ -1,3 +1,4 @@
+/*** VARIABLES COLORS ***/
 .content .navbar {
   position: absolute;
   top: 0;
@@ -22,6 +23,7 @@
 .content .hi {
   background: #232741;
   position: relative;
+  cursor: none;
 }
 .content .hi .txt {
   position: absolute;
@@ -40,6 +42,8 @@
 }
 .content #me {
   display: flex;
+  position: relative;
+  z-index: 1;
 }
 .content #me .col {
   width: 50%;
@@ -87,21 +91,44 @@
   justify-content: space-evenly;
 }
 .content #projects .project {
-  min-width: 30%;
-  height: 300px;
-  border: 1px solid #fff1fd;
+  padding: 350px;
+  border: 1px solid #f0f0e6;
   margin: 20px 0;
 }
 .content .project-title {
-  background-image: url("../img/sand.jpg");
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
   height: 150px;
   line-height: 150px;
   text-align: center;
-  color: #232741;
+  color: #f0f0e6;
+  background: #232741;
+  z-index: 0;
 }
+.content .project-title .title {
+  font-family: "Open Sans", sans-serif;
+  background: white;
+  padding: 20px 45px;
+  color: #232840;
+  text-transform: uppercase;
+  font-size: 1.3rem;
+}
+
+/* Styles to make skrollable work. Copy these to your file. */
+/*
+.skrollable {
+  position:fixed;
+  z-index:100;
+}
+.skrollr-mobile .skrollable {
+  position:absolute;
+}
+.skrollable .skrollable {
+  position:absolute;
+}
+
+.skrollable .skrollable .skrollable {
+  position:static;
+}
+*/
+/* End skrollable styles */
 
 /*# sourceMappingURL=index.css.map */
