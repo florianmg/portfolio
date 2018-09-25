@@ -104,11 +104,6 @@ $creme: #f0f0e6;
     width: 100%;
     background: $red;
     justify-content: space-evenly;
-    .project{
-    padding: 350px;
-      border: 1px solid $creme;
-      margin: 20px 0;
-    }
   }
 
   .project-title {
@@ -127,27 +122,4 @@ $creme: #f0f0e6;
       font-size: 1.3rem;
     }
   }
-
-
-
 }
-
-
-/* Styles to make skrollable work. Copy these to your file. */
-/*
-.skrollable {
-  position:fixed;
-  z-index:100;
-}
-.skrollr-mobile .skrollable {
-  position:absolute;
-}
-.skrollable .skrollable {
-  position:absolute;
-}
-
-.skrollable .skrollable .skrollable {
-  position:static;
-}
-*/
-/* End skrollable styles */

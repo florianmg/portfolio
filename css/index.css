@@ -90,11 +90,6 @@
   background: #ef565a;
   justify-content: space-evenly;
 }
-.content #projects .project {
-  padding: 350px;
-  border: 1px solid #f0f0e6;
-  margin: 20px 0;
-}
 .content .project-title {
   height: 150px;
   line-height: 150px;
@@ -111,24 +106,5 @@
   text-transform: uppercase;
   font-size: 1.3rem;
 }
-
-/* Styles to make skrollable work. Copy these to your file. */
-/*
-.skrollable {
-  position:fixed;
-  z-index:100;
-}
-.skrollr-mobile .skrollable {
-  position:absolute;
-}
-.skrollable .skrollable {
-  position:absolute;
-}
-
-.skrollable .skrollable .skrollable {
-  position:static;
-}
-*/
-/* End skrollable styles */
 
 /*# sourceMappingURL=index.css.map */
