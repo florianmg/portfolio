@@ -112,16 +112,22 @@
   font-size: 1.3rem;
 }
 
+/*
 @media screen and (max-width: 740px) {
-  .content .aboutme {
-    flex-wrap: wrap;
-  }
-  .content .aboutme .col {
-    flex-basis: 100% !important;
-    align-items: center !important;
-    align-content: center !important;
-    justify-content: center !important;
+  .content {
+
+    .aboutme {
+      flex-wrap: wrap;
+
+      .col {
+        flex-basis: 100% !important;
+        align-items: center !important;
+        align-content: center !important;
+        justify-content: center !important;
+      }
+    }
   }
 }
+*/
 
 /*# sourceMappingURL=index.css.map */
