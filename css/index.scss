@@ -133,3 +133,21 @@ $creme: #f0f0e6;
 }
 
 
+/* Styles to make skrollable work. Copy these to your file. */
+/*
+.skrollable {
+  position:fixed;
+  z-index:100;
+}
+.skrollr-mobile .skrollable {
+  position:absolute;
+}
+.skrollable .skrollable {
+  position:absolute;
+}
+
+.skrollable .skrollable .skrollable {
+  position:static;
+}
+*/
+/* End skrollable styles */
