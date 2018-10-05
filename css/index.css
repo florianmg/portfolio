@@ -1,4 +1,10 @@
 /*** VARIABLES COLORS ***/
+@media screen and (max-width: 768px) {
+  .aboutme {
+    flex-direction: column; }
+    .aboutme .col {
+      width: 100% !important;
+      padding: 75px 0 !important; } }
 .content .navbar {
   position: absolute;
   top: 0;
@@ -6,110 +12,110 @@
   right: 0;
   z-index: 1;
   color: white;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   padding: 20px 30px;
-  text-align: right;
-}
-.content .navbar ul li {
-  display: inline-block;
-  margin: 0 40px;
-  text-decoration: none;
-  color: white;
-}
+  text-align: right; }
+  .content .navbar ul li {
+    display: inline-block;
+    margin: 0 40px;
+    text-decoration: none;
+    color: white; }
 .content .title {
-  font-family: "Open Sans", sans-serif;
-  color: white;
-}
+  font-family: 'Open Sans', sans-serif;
+  color: white; }
 .content .hi {
   background: #232741;
   position: relative;
-  cursor: none;
-}
-.content .hi .txt {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 250px;
-  height: 250px;
-  margin-top: -125px;
-  margin-left: -125px;
-}
+  cursor: none; }
+  .content .hi .txt {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 250px;
+    height: 250px;
+    margin-top: -125px;
+    margin-left: -125px; }
 .content #arrow_bot {
   left: 50px;
   margin-left: 95px;
   margin-top: -45px;
-  opacity: 0;
-}
+  opacity: 0; }
 .content #me {
   display: flex;
   position: relative;
-  z-index: 1;
-}
-.content #me .col {
-  width: 50%;
-  max-height: 500px;
-  padding: 75px 40px;
-}
-.content #me .col .txt {
-  text-align: center;
-  font-family: "Montserrat", sans-serif;
-  font-size: 2.5rem;
-  text-transform: uppercase;
-}
-.content #me .col .pres {
-  font-family: "Open Sans", sans-serif;
-  font-size: 1.4rem;
-  line-height: 2rem;
-  max-width: 500px;
-  margin: auto;
-  align-items: center;
-}
-.content #me .left {
-  background-color: #ef565a;
-  display: flex;
-}
-.content #me .left img {
-  width: 90%;
-  max-width: 500px;
-  margin: auto;
-}
-.content #me .right {
-  background-color: #f0f0e6;
-  display: flex;
-}
+  z-index: 1; }
+  .content #me .col {
+    width: 50%;
+    max-height: 500px;
+    padding: 75px 40px; }
+    .content #me .col .txt {
+      text-align: center;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 2.5rem;
+      text-transform: uppercase; }
+    .content #me .col .pres {
+      font-family: "Open Sans", sans-serif;
+      font-size: 1.4rem;
+      line-height: 2rem;
+      max-width: 500px;
+      margin: auto;
+      align-items: center; }
+  .content #me .left {
+    background-color: #ef565a;
+    display: flex; }
+    .content #me .left img {
+      width: 90%;
+      max-width: 500px;
+      margin: auto; }
+  .content #me .right {
+    background-color: #f0f0e6;
+    display: flex; }
 .content #svgAttributes #txtSvg {
-  opacity: 0;
-}
+  opacity: 0; }
 .content #svgAttributes #job {
-  opacity: 0;
-}
+  opacity: 0; }
 .content #projects {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
   background: #ef565a;
-  justify-content: space-evenly;
-}
-.content #projects .project {
-  padding: 350px;
-  border: 1px solid #f0f0e6;
-  margin: 20px 0;
-}
+  justify-content: space-evenly; }
+  .content #projects .project {
+    padding: 350px;
+    border: 1px solid #f0f0e6;
+    margin: 20px 0; }
 .content .project-title {
   height: 150px;
   line-height: 150px;
   text-align: center;
   color: #f0f0e6;
   background: #232741;
-  z-index: 0;
+  z-index: 0; }
+  .content .project-title .title {
+    font-family: "Open Sans", sans-serif;
+    background: white;
+    padding: 20px 45px;
+    color: #232840;
+    text-transform: uppercase;
+    font-size: 1.3rem; }
+
+/* Styles to make skrollable work. Copy these to your file. */
+/*
+.skrollable {
+  position:fixed;
+  z-index:100;
 }
-.content .project-title .title {
-  font-family: "Open Sans", sans-serif;
-  background: white;
-  padding: 20px 45px;
-  color: #232840;
-  text-transform: uppercase;
-  font-size: 1.3rem;
+.skrollr-mobile .skrollable {
+  position:absolute;
 }
+.skrollable .skrollable {
+  position:absolute;
+}
+
+.skrollable .skrollable .skrollable {
+  position:static;
+}
+*/
+/* End skrollable styles */
 
 /*# sourceMappingURL=index.css.map */
