@@ -19,6 +19,7 @@ $creme: #f0f0e6;
 
 
 .content {
+  width: 100vw;
   .navbar {
     position: absolute;
   	top: 0;
@@ -143,27 +144,23 @@ $creme: #f0f0e6;
       font-size: 1.3rem;
     }
   }
-
-
-
 }
 
-
-/* Styles to make skrollable work. Copy these to your file. */
-/*
-.skrollable {
-  position:fixed;
-  z-index:100;
+.skills {
+  width: 100vw;
+  display: flex;
+  height: 800px;
+  .left {
+    background: $creme;
+    flex-basis: 50%;
+  }
+  .right {
+    background: $red;
+    flex-basis: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    color: $creme;
+  }
 }
-.skrollr-mobile .skrollable {
-  position:absolute;
-}
-.skrollable .skrollable {
-  position:absolute;
-}
-
-.skrollable .skrollable .skrollable {
-  position:static;
-}
-*/
-/* End skrollable styles */
