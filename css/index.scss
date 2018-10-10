@@ -15,6 +15,10 @@ $nycd : 'Nothing You Could Do', cursive;
     width: 100% !important;
     padding: 75px 0 !important;
     }
+
+    .skills {
+      flex-direction: column-reverse;
+    }
 }
 
 
@@ -91,7 +95,9 @@ $nycd : 'Nothing You Could Do', cursive;
         max-width: 500px;
         margin: auto;
         align-items: center;
-      }
+        text-align: justify;
+        padding: 0 20px;
+      } 
     }
     .left {
       background-color: $red;
@@ -171,6 +177,7 @@ $nycd : 'Nothing You Could Do', cursive;
     flex-basis: 50%;
     text-align: center;
     font-size: 1.4rem;
+    font-family: $opensans;
     img {
       width: 40%;
       margin-bottom: 50px;
@@ -179,6 +186,8 @@ $nycd : 'Nothing You Could Do', cursive;
       list-style: none;
       li {
         margin: 40px 0;
+        text-transform: uppercase;
+        color: $blue;
       }
     }
   }
@@ -187,7 +196,16 @@ $nycd : 'Nothing You Could Do', cursive;
     background: $red;
     flex-basis: 50%;
     font-family: $nycd;
-    color: $creme;
+    color: $blue;
     font-size: 2.5rem;
+  }
+}
+
+.contact {
+  .left {
+    
+  }
+  .right {
+
   }
 }
