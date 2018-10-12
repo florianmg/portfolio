@@ -6,6 +6,15 @@
   src: url("./coutfont/Cout-Regular.woff") format("woff");
 }
 
+@media screen and (max-width: 450px) {
+  .skill.right {
+    font-size: 4rem !important;
+  }
+  .contact .left {
+    font-size: 4rem !important;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .aboutme {
     flex-direction: column;
@@ -16,6 +25,13 @@
   }
   .skills {
     flex-direction: column-reverse;
+  }
+  .contact {
+    flex-direction: column;
+  }
+  .contact .left, .contact .right {
+    flex-basis: 100% !important;
+    width: 100vw;
   }
 }
 
@@ -93,7 +109,7 @@
 .content #me .col .pres {
   font-family: "Open Sans", sans-serif;
   font-size: 1.4rem;
-  line-height: 2rem;
+  line-height: 3rem;
   max-width: 500px;
   margin: auto;
   align-items: center;
