@@ -4,7 +4,21 @@ $red: #ef565a;
 $creme: #f0f0e6;
 $opensans : 'Open Sans', sans-serif;
 $nycd : 'Nothing You Could Do', cursive;
+$cout : "Cout-Regular", sans-serif; 
 
+//@include font-face(Cout, cout-font/Cout);
+
+// @font-face {
+//   font-family: "Cout";
+//   src: local("./cout-font/Cout-Regular.woff") format("woff"); 
+// }
+
+@font-face {
+  font-family: "Cout-Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: url("./coutfont/Cout-Regular.woff") format("woff"); 
+}
 
 
 @media screen and (max-width: 768px) {
@@ -52,7 +66,6 @@ $nycd : 'Nothing You Could Do', cursive;
   .hi {
     background: $blue;
   	position: relative;
-    cursor: none;
     width: 100vw;
     height: 100vh;
     .txt {
@@ -122,12 +135,11 @@ $nycd : 'Nothing You Could Do', cursive;
     }
     #job {
       opacity: 0;
-      font-family: $nycd;
-      font-size: 9px;
+      font-family: $cout;
+      font-size: 10px;
       text-transform: uppercase;
     }
   }
-
   #projects {
     display: flex;
     flex-wrap: wrap;
@@ -195,17 +207,32 @@ $nycd : 'Nothing You Could Do', cursive;
     padding: 30px 0;
     background: $red;
     flex-basis: 50%;
-    font-family: $nycd;
+    font-family: $cout;
     color: $blue;
-    font-size: 2.5rem;
+    font-size: 6rem;
+    text-align: center;
   }
 }
 
 .contact {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  background: $creme;
   .left {
-    
+    flex-basis: 50%;
+    background: $red;
+    font-family: $cout;
+    font-size: 6rem;
+    text-align: center;
+    color: $blue;
+    padding: 100px 0;
   }
   .right {
+    flex-basis: 50%;
+    font-family: $opensans;
+    text-align: center;
 
-  }
+  }  
 }
