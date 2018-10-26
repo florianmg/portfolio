@@ -27,8 +27,14 @@ $cout : "Cout-Regular", sans-serif;
   .contact .left {
     font-size: 4rem !important;
   }
+  .contact .infos-contact {
+    width: 80% !important;
+  }
 }
 @media screen and (max-width: 768px) {
+  .projects img{
+    width: 100%;
+  }
   .aboutme {
     flex-direction: column;
   }
@@ -42,15 +48,26 @@ $cout : "Cout-Regular", sans-serif;
     }
     .contact {
       flex-direction: column;
+      
       .left, .right {
+        padding: 30px 0 !important;
         flex-basis: 100% !important;
         width: 100vw;
+        
       }
     }
 }
 
 
+.projects {
+  text-align: center;
+  background: #0e3047;
+  color: white;
+  text-transform: uppercase;
+  padding: 20px 0;
 
+
+}
 
 .content {
   width: 100vw;
@@ -154,16 +171,29 @@ $cout : "Cout-Regular", sans-serif;
       text-transform: uppercase;
     }
   }
-  #projects {
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    background: $red;
-    justify-content: space-evenly;
-    .project{
-    padding: 350px;
-      border: 1px solid $creme;
-      margin: 20px 0;
+  .projects {
+    font-family: $opensans;
+    .line.pair {
+      flex-direction: row-reverse;
+      background: $blue;
+      color: $creme;
+    }
+    .line {
+      background: $creme;
+      display: flex;
+      color: $blue;
+      .left, .right{
+        flex-basis: 50%;
+        img {
+          width: 100%;
+        }
+      }
+      .right {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        padding: 50px 0;
+      }
     }
   }
 
@@ -249,4 +279,22 @@ $cout : "Cout-Regular", sans-serif;
     text-align: center;
 
   }  
+  .infos-contact {
+    width: 50%;
+    margin: 0px auto;
+    a{
+      text-decoration: none;
+      color: $blue;
+    }
+  }
+  .contact-line {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+  }
+  .contact-icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 30px;
+  }
 }

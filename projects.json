@@ -1,0 +1,20 @@
+[
+    {
+      "name": "projet1",
+      "languages" : "HTML, CSS, JAVASCRIPT",
+      "url" : "/img/capture-desktop.png",
+      "description" : "Création d'un site de recettes de cuisine avec l'API \"TheMealDB\". Possibilité d'ajouter des recettes en favoris, rechercher une recette et les trier selon différents critères."
+    },
+    {
+        "name": "Projet2",
+        "languages" : "JAVASCRIPT, HTML5",
+        "url" : "/img/capture-desktop.png",
+        "description" : "lorem ipsum coucou dolor sit amet "
+    },
+    {
+        "name": "Project3",
+        "languages" : "PHP POO",
+        "url" : "/img/capture-desktop.png",
+        "description" :"lorem ipsum coucou dolor sit amet "
+    }
+  ]
